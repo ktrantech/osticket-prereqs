@@ -69,21 +69,21 @@ Step 1. Create an Azure Virtual Machine Windows 10, 4 vCPUs
 ![Screenshot 2025-01-20 at 9 54 01 AM](https://github.com/user-attachments/assets/48afdff0-338b-448a-9855-5a3f25ea4e78)
 
 
-- In the Friendly Name box type in osticket
+- In the Friendly Name box type in osTicket
 - Click "Add to add osTicket VM
 
 
   
-<h2>Step. 5 Connect to the osTicket VM and login using credentials from above</h2>
+<h2>Step. 5 Connect to the osTicket VM and log in using credentials from above</h2>
 
   ![image](https://github.com/user-attachments/assets/a6a480e1-dc56-4510-bf51-727c5e9d9f96)
 
   - Sometimes Azure will make you reset the password before signing in
-  - To do this click on osticket VM in Azure
+  - To do this click on osTicket VM in Azure
   - Under the Help tab click Reset Password
-  - Connect to osTicket VM after Password has been reset
+  - Connect to osTicket VM after the Password has been reset
 
-<h2>Step. 6 Within the VM (osticket-vm) download the osTicket Installation File</h2>
+<h2>Step. 6 Within the VM (osTicket-vm) download the osTicket Installation File</h2>
 
 ![image](https://github.com/user-attachments/assets/359e60b1-a5b5-453c-9502-fac54ab9b02a)
 
@@ -114,15 +114,32 @@ https://github.com/user-attachments/assets/80f370bf-9108-4cd6-a193-3347d0e5481b
 https://github.com/user-attachments/assets/71d5d47c-e795-4a88-8381-4226656b5a0a
 
 
-- PHP is a backend web server langauage that osTicket runs off of
-- We are required to install PHP in order for osTicket to function
-- It is a requirment that we install Rewrite Module to use osTicket as well
+- PHP is a backend web server language that osTicket runs off of
+- We are required to install PHP for osTicket to function
+- It is a requirement that we install Rewrite Module to use osTicket as well
 - Watch the Instructional Video above
 
 
+<h2>Step. 10 Create the PHP Directory folder</h2>
+
+![Create directory php](https://github.com/user-attachments/assets/6c44296b-5b90-4fbf-9479-e36518025afb)
+
+- Click on the yellow folder on your VM taskbar
+- Find Windows(C:) and click on it
+- Create a PHP folder within Windows(C:)
+- Please see the photo diagram above
+
+<h2>Step. 11 Install VC Redist & MySQL</h2>
+
+
+https://github.com/user-attachments/assets/ee941f64-4603-49d9-9db1-6d81b0e17688
+
+- Watch the Instructional Video above
+- Once MySQL 5.5.62 Server is done configuring.  Click Finish
+
+
+<h2>Step. 12 Open IIS as an Admin</h2>
 
 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+
