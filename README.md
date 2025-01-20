@@ -74,7 +74,7 @@ Step 1. Create an Azure Virtual Machine Windows 10, 4 vCPUs
 
 
   
-<h2>Step. 5 Connect to the osTicket VM that was just created using login credentials from above</h2>
+<h2>Step. 5 Connect to the osTicket VM and login using credentials from above</h2>
 
   ![image](https://github.com/user-attachments/assets/a6a480e1-dc56-4510-bf51-727c5e9d9f96)
 
@@ -90,6 +90,34 @@ Step 1. Create an Azure Virtual Machine Windows 10, 4 vCPUs
 - [osTicket Installation File](https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0)
 - I will use the files in this folder to install osTicket and some of the dependencies 
 
+
+<h2>Step. 7 Extract osTicket Installation File & put file on desktop</h2>
+
+
+https://github.com/user-attachments/assets/7a0aace6-610b-4dd7-a239-57999de126da
+
+- Watch the Instructional Video above
+
+  
+<h2>Step. 8 Install/ Enable IIS in Windows WITH CGI</h2>
+
+
+https://github.com/user-attachments/assets/80f370bf-9108-4cd6-a193-3347d0e5481b
+
+- Watch the Instructional Video above
+
+
+<h2>Step. 9 Install PHP Manager & Rewrite Module for IIS </h2>
+
+
+
+https://github.com/user-attachments/assets/71d5d47c-e795-4a88-8381-4226656b5a0a
+
+
+- PHP is a backend web server langauage that osTicket runs off of
+- We are required to install PHP in order for osTicket to function
+- It is a requirment that we install Rewrite Module to use osTicket
+- Watch the Instructional Video above
 
 
 
