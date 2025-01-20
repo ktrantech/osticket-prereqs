@@ -116,7 +116,7 @@ https://github.com/user-attachments/assets/71d5d47c-e795-4a88-8381-4226656b5a0a
 
 - PHP is a backend web server langauage that osTicket runs off of
 - We are required to install PHP in order for osTicket to function
-- It is a requirment that we install Rewrite Module to use osTicket
+- It is a requirment that we install Rewrite Module to use osTicket as well
 - Watch the Instructional Video above
 
 
