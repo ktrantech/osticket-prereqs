@@ -6,9 +6,7 @@
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
 
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -34,35 +32,65 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
+Step 1. Create an Azure Virtual Machine Windows 10, 4 vCPUs
+
+
 ![image](https://github.com/user-attachments/assets/e16081fa-860e-44a6-88a9-d3d71b0fa8ef)
 
-Create an Azure Virtual Machine Windows 10, 4 vCPUs
 
 - Name: osticket-vm
 
 - Username: labuser
 
-- Password: osTicketPassword1!
+- Password: osTicketPassword1!          
 
-             
 
-Log into the VM with Remote Desktop once completed 
+
+<h2>Step 2. Log into the VM with Remote Desktop</h2>
 
 ![osticket2 login](https://github.com/user-attachments/assets/1529c408-7957-41c3-aa93-874ecb4c76d0)
 
 
 - Copy your osTicket Virtual Machines Public IP Address
 
+<h2>Step 3. Navigate to your Microsoft Remote Desktop Application</h2>
+
+
 ![Screenshot 2025-01-20 at 9 52 11 AM](https://github.com/user-attachments/assets/bf904f3c-b5e0-43f0-a168-1130a1f26de8)
 
-- Navigate to your Microsoft Remote Desktop Application
+
 - Select the "+" button to add a New PC
 - Paste your Virtual Machine Public IP Address in the PC Name box
 
+
+<h2>Step 4. Paste your Virtual Machine Public IP Address in the PC Name box</h2>
+
+
 ![Screenshot 2025-01-20 at 9 54 01 AM](https://github.com/user-attachments/assets/48afdff0-338b-448a-9855-5a3f25ea4e78)
 
-- Paste your Virtual Machine Public IP Address in the PC Name box
+
 - In the Friendly Name box type in osticket
+- Click "Add to add osTicket VM
+
+
+  
+<h2>Step. 5 Connect to the osTicket VM that was just created using login credentials from above</h2>
+
+  ![image](https://github.com/user-attachments/assets/a6a480e1-dc56-4510-bf51-727c5e9d9f96)
+
+  - Sometimes Azure will make you reset the password before signing in
+  - To do this click on osticket VM in Azure
+  - Under the Help tab click Reset Password
+  - Connect to osTicket VM after Password has been reset
+
+<h2>Step. 6 Within the VM (osticket-vm) download the osTicket Installation File</h2>
+
+![image](https://github.com/user-attachments/assets/359e60b1-a5b5-453c-9502-fac54ab9b02a)
+
+- [osTicket Installation File](https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0)
+- I will use the files in this folder to install osTicket and some of the dependencies 
+
+
 
 
 
