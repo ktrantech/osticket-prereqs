@@ -17,17 +17,22 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Operating Systems Used </h2>
 
 - Windows 10</b> (21H2)
+- macOS 
 
 <h2>List of Prerequisites</h2>
 
 - Create an Azure Virtual Machine Windows 10, 4 vCPUs
 - Log into the VM with Remote Desktop
+- Navigate to your Microsoft Remote Desktop Application
 - Install / Enable IIS in Windows WITH CGI
 - Install PHP Manager for IIS
 - Install the Rewrite Module
 - Open IIS as an Admin
 - Register PHP from within IIS
 - Reload IIS
+- Install VC Redist & MySQL
+- Enable Extensions & Assign Permissions
+- HeidiSQL Setup
 - Install osTicket v1.15.8
 
 <h2>Installation Steps</h2>
