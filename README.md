@@ -138,7 +138,58 @@ https://github.com/user-attachments/assets/ee941f64-4603-49d9-9db1-6d81b0e17688
 - Once MySQL 5.5.62 Server is done configuring.  Click Finish
 
 
-<h2>Step. 12 Open IIS as an Admin</h2>
+<h2>Step. 12 Open IIS as an Admin & Register for PHP from within</h2>
+
+
+https://github.com/user-attachments/assets/701a90c7-fd87-474d-a830-ef90448e93aa
+
+- Watch the Instructional Video above
+  
+
+<h2>Step. 13 Enable Extensions & Assign Permissions</h2>
+
+
+
+https://github.com/user-attachments/assets/cee179dd-56c1-4545-8a49-6a1d3341677e
+
+
+- Watch the Instructional Video above
+- Name your Help Desk name whatever you want
+- Type an email address
+- Fill out Admin User information (make sure to use a different email from above)
+- Install HeidiSQL in your osTicket installation file folder you downloaded at the start
+- HeidiSQL is an application that allows us to make a connection with our database
+
+
+<h2>Step. 14 HeidiSQL Setup</h2>
+
+<img width="663" alt="Screenshot 2025-01-20 at 7 36 11 PM" src="https://github.com/user-attachments/assets/d6651276-9e8c-4afc-aab1-a5c8783609b8" />
+
+- Once HeidiSQL is installed
+- Type in root for user and password for your credentials from earlier
+
+
+https://github.com/user-attachments/assets/5e5394d3-e085-4f5e-867b-fa4128ed4b4a
+
+- Watch the Instructional Video above
+- Then go to your Database Settings in HeidiSQL
+- Fill out Database settings just like the diagram below then click "Install Now"
+
+![Screenshot 2025-01-20 at 7 53 58 PM](https://github.com/user-attachments/assets/d9ff4eb0-d924-430f-8a09-39ec98b9ef68)
+
+
+<h2>Step. 15 Congratulations, hopefully it is installed with no errors!
+</h2>
+
+
+![Screenshot 2025-01-20 at 7 58 18 PM](https://github.com/user-attachments/assets/eca87329-602f-4c1b-873c-ca1734ef44ba)
+
+- You should see a congratulations page like the one above
+
+
+https://github.com/user-attachments/assets/11368310-2b72-47f2-9faf-a177443d1102
+
+- Watch the Instructional Video above
 
 
 
